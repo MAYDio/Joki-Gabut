@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    width: 100%;
+    background-color: red;
+    color: blueviolet;
+    padding: 15px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .navbar-logo h1{
+    font-size: 35px;
+    color: aqua;
+}
+.navbar .navbar-logo .tec {
+    color: bisque;
+}
+.navbar ul{
+    list-style: none;
+    gap: 25px;
+    display: flex;
+}
+.navbar ul li{
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: cadetblue;
+    transition: 0.3s ease;
+}
+.navbar ul li a:hover {
+    color: forestgreen;
+}
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('zzz1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home .isi{
+    padding: 1.4rem 7%;
+    max-width: 50rem;
+}
+.isi a{
+    text-decoration: none;
+}
+.isi h1{
+    margin: 1rem;
+    font-size: 45px;
+    color: gold;
+}
+.isi p{
+    font-size: 20px;
+    color: rgb(18, 172, 219);
+    font-weight: 100;
+}
+.isi .cta{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    color: indigo;
+    background-color: khaki;
+    border-radius: 0.2rem;
+}
